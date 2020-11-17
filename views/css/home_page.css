@@ -1,0 +1,84 @@
+.card p{
+    font-weight: normal;
+    color: #9C9C9C;
+}
+
+.card h3{
+
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: beige;
+}
+
+.card{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    margin: 10px;
+    padding:10px;
+}
+
+.container{
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    position: relative;
+    top: 0;
+    margin-left: 240px;
+    padding: 20px;
+    padding-bottom: 50px; /* Height of the footer */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.jumbotron{
+
+    background-image: url('../../asset/images/code4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1{
+    color: #f1f1f1;
+    font-weight: bolder;
+}
+
+.jumbotron p{
+    color: #f1f1f1;
+    font-weight: bolder;
+}
+
